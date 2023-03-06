@@ -18,7 +18,7 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://media.discordapp.net/attachments/1041580044226662420/1065036141113389066/aaa9e62afb62aa005980732dc211c233--lil-boy-manga-boy.jpg?width=349&height=493);
+  --dplus-backdrop: url();
 
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 255;
@@ -27,7 +27,7 @@
 
 /* Foreground color: For things like text and icons. */
   --dplus-foreground-color-hue-base: 255;
-  --dplus-foreground-color-hue-links: 197;
+  --dplus-foreground-color-hue-links: 255;
   --dplus-foreground-color-saturation-amount: 1;
   --dplus-foreground-color-lightness-amount: 1;
 
@@ -60,9 +60,9 @@
 :root {
 /* Fonts */
 /* You can use any installed font on your device. */
-  --dplus-font-ui: 'Poppins';
-  --dplus-font-body: 'Roboto';
-  --dplus-font-header: 'Righteous';
+  --dplus-font-ui: 'Uni Sans';
+  --dplus-font-body: 'Uni Sans';
+  --dplus-font-header: 'Uni Sans';
 
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
@@ -78,11 +78,11 @@ Set avatar/server radius to 50% to make them circular.
    --dplus-spacing-app: 10px;
 
 /* Size of user and server icons */
---dplus-icon-avatar-chat: 64px;
+--dplus-icon-avatar-chat: 32px;
 --dplus-icon-avatar-list: 32px;
---dplus-icon-avatar-profile: 64px;
+--dplus-icon-avatar-profile: 32px;
 
---dplus-icon-server-sidebar: 48px;
+--dplus-icon-server-sidebar: 32px;
 --dplus-icon-server-list: 32px;
 
 /* The Home icon on the top left */
